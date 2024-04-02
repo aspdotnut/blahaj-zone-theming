@@ -1,0 +1,9 @@
+:root {
+  /* Change the link here to your own custom banner */
+  --banner: url('https://media.tenor.com/jcX_bguk3_0AAAAM/stinker-plinker.gif') !important;
+}
+
+/* Applying the custom banner */
+.navbar-for-mobile-banner-vAuD, .navbar-banner-xW6f {
+  background-image: var(--banner) !important;
+}
