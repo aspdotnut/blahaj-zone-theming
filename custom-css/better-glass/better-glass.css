@@ -1,13 +1,21 @@
-.MkPageHeader-root-5oMj, .universal-nav-ApN7, .MkContainer-header-eHoU {
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1) !important;
-  backdrop-filter: blur(15px) !important;
-  -webkit-backdrop-filter: blur(15px) !important;
+:root {
+  /* amount of blur for the transparent elements */
+  --blur: blur(10px) !important;
 }
 
+/* blur and drop-shadow added to transparent elements */
+.MkPageHeader-root-5oMj, .universal-nav-ApN7, .MkContainer-header-eHoU {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: var(--blur) !important;
+  -webkit-backdrop-filter: var(--blur) !important;
+}
+
+/* some background color fixes */
 .MkPageHeader-root-5oMj, .universal-nav-ApN7{
   background: var(--header) !important;
 }
 
+/* added border radius to certain elements to make them look more polished */
 .MkContainer-header-eHoU {
-  border-radius: var(--radius);
+  border-radius: var(--radius) !important;
 }
