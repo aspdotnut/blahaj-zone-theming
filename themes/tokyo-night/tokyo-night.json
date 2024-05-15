@@ -24,7 +24,7 @@
 		X17: ':alpha<0.8<@bg',
 		cwBg: '#687390',
 		cwFg: '#393f4f',
-		link: '#44a4c1',
+		link: '#7aa2f7',
 		warn: '#ecb637',
 		badge: '#31b1ce',
 		error: '#ec4137',
